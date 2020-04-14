@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Goal Diggers</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Services_style.css" type="text/css">
+<link rel="icon" href="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2FUber_App_Icon.png?v=1584193324324" type="png">
+<!---Font libraries down here>>-->
+<script src="https://kit.fontawesome.com/0d5ea8cf2b.js" crossorigin="anonymous"></script> <!--Font awosome Icons Library-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Google ICONS-->
+<link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=sky" /> <!--Sky- ARABIC-->
+<link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet"><!--Changa- ARABIC-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"><!--Open sans- English-->
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet"> <!--Questrial-English -->
+<script src="https://kit.fontawesome.com/0d5ea8cf2b.js" crossorigin="anonymous"></script> <!--Font awosome Icons Library-->
+<script src="https://use.fontawesome.com/09eda3136b.js"></script>
+<!--End of fonts -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script> //<!--Scroll effect script -->
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav_bar").style.top = "0";
+  } else {
+    document.getElementById("nav_bar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    </script>
+<body>
+<!--Particles Script-->
+  <div id="particles-js"> <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%; z-index:-1;"></canvas></div>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+  </script>
+  <script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 355,
+        "density": {
+          "enable": true,
+          "value_area": 789.1476416322727
+        }
+      },
+      "color": {
+        "value": "#000000"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "background": {
+          "background": "#ffffff",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.48927153781200905,
+        "random": false,
+        "anim": {
+          "enable": true,
+          "speed": 0.2,
+          "opacity_min": 0,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 2,
+        "random": true,
+        "anim": {
+          "enable": true,
+          "speed": 2,
+          "size_min": 0,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": false,
+        "distance": 150,
+        "color": "#000000",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 0.2,
+        "direction": "none",
+        "random": true,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "bubble"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 83.91608391608392,
+          "size": 1,
+          "duration": 3,
+          "opacity": 1,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
+
+
+</head>
+<!--End of Paticles JS-->
+<nav>
+<div id="nav_bar">
+<a href="Homepage.html" class="uberlogo"><img src="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2Fuber-logo-png-1584.png?v=1584295596633" class="uberlogo-nav" alt="Uber logo" height="35px" width="150px">
+</a>
+<a href="Homepage.html" class="neon"> Home </a>
+<a href="Services.html" class="neon">Services </a>
+<a href="Order.html" class="neon">Order your ride </a>
+<a href="Order.html#About" class="neon">About </a>
+<a href="Services_ar.html" class="neon"> عربي  </a>
+<div class="media_icons" >
+  <a href="https://instagram.com/uber/"> <i class="fab fa-facebook-square"></i> </a>
+  <a href="https://www.facebook.com/uber"> <i class="fab fa-instagram"></i> </a>
+<a href="mailto:support@uber.com"> <i class="material-icons"> mail </i> </a>
+</div>
+</div>
+</nav>
+<!--End of NAVIGATON bar-->
+  <div class="top-text">
+  <p class = "Title"> Uber isn't Just about Transportation </p>
+
+<p class = "Sub-title" > We offer several and various services for our customers.
+<br>
+<a href="#IMGS"> UberX</a>
+<a href="#UberEats"> UberEats </a>
+<a href="#UberElevate"> UberElevate </a>
+</div>
+  <div id="IMGS">
+    <img src ="Uber-x.png" alt="UberX">
+        <br>
+        <a href="https://uber.com" class="UberX-text">  UberX </a>
+        <hr class="hr-uberX">
+        <p class="UberX-description">
+          The most classic Uber service is UberX , provides you with the fastest,
+          cheapest ,and most available cars around.<br>
+          Easy & Suitable for everyday's travel.
+        </p>
+</div>
+<div id="UberEats">
+    <img src="uber-eats.jpg" class="eats-img1" alt="UberEats">
+    <br>
+    <a href="https://www.ubereats.com/" class="UberEatslink"> UberEats </a>
+<hr class="hr-ubereats">
+<p class="UberEats-description">
+
+  With UberEats you can order your favorite food from different restaurants
+  in you city and get it instsantly with
+  our Fast Delievery Service.<br>
+  Get your food as fast as you go with <b> Uber </b>.
+</div>
+
+<div id="UberElevate">
+      <img src ="Uber-elevate.jpg" alt="Uber Elevate">
+        <br>
+        <a href="https://www.uber.com/us/en/elevate/" class="UberElevate-text">  Uber Elevate </a>
+        <hr class="hr-uberElevate">
+        <p class="UberElevate-description">
+          We supply you on not on ground only , but also in the air !<br>
+          One of ours biggest futurstic projects' is to apply the Uber elevate , that
+          will make our customers able to travel even faster and more comfortable than ever before.
+</div>
+</body>
+</html>

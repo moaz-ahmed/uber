@@ -1,0 +1,201 @@
+body{
+  font-family: 'Questrial' ,'open sans' ,'sky','Changa',sans-serif;
+  background-color:#000;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+html ::selection {
+  background-color: #355072;
+  color:white;
+}
+html {
+  scroll-behavior: smooth;
+}
+.thehead{
+position:absolute; left:470px; top:130px; font-size:36px;  color: white; animation: fadeOut 5s;
+}
+.theip{
+    font-size: 80px; top: 130px;
+}
+.theunder{
+  position:absolute; left:586px; top:250px;  font-size: 20px; color: white; animation: fadeOut 7s;
+}
+.firstpic{
+  position:absolute; left:100px; top:360px; animation: fadeOut 7s;  transition: transform .2s; cursor: context-menu;
+}
+
+.firstpic:hover{
+  transform: scale(1.1);   box-shadow: 0 0 10px   #A9A9A9, 0 0 40px   #A9A9A9, 0 0 80px   #A9A9A9; cursor: context-menu;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+.secpic{
+  position: absolute; top:360px; left: 530px; animation: fadeOut 7s;transition: transform .2s;cursor: context-menu;
+}
+.secpic:hover{
+  transform: scale(1.1);   box-shadow: 0 0 10px   #A9A9A9, 0 0 40px   #A9A9A9, 0 0 80px   #A9A9A9;cursor: context-menu;
+}
+
+.thepic{
+  height:160px; width:300px;cursor: context-menu;
+}
+.thirdpic{
+  position: absolute; top:360px; left: 970px; animation: fadeOut 7s; transition: transform .2s;cursor: context-menu;
+}
+
+.thirdpic:hover{
+  transform: scale(1.1);   box-shadow: 0 0 10px   #A9A9A9, 0 0 40px   #A9A9A9, 0 0 80px   #A9A9A9; cursor: context-menu;
+}
+
+@keyframes fadeOut{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.heads{
+color: white; cursor: context-menu;
+}
+
+.thepic:hover{
+  background-color: #464444; cursor: context-menu;
+}
+
+body,html {
+  height: 100%;
+}
+
+
+
+.uberlogo
+{
+  padding-left:10px ;
+  padding-right:30px;
+  margin-right:10px;
+  padding-top: 10px;
+  padding-bottom: -20px;
+  cursor: normal;
+  float: left;
+
+/*NAVIGATON BAR*/
+}
+#nav_bar
+{
+margin: auto;
+padding:auto;
+margin-left: -10px;
+margin-top: auto;
+position: fixed;
+top:0;
+width:100%;
+height:auto;
+background-color:rgba(0,0,0,0.5);
+transition: top 0.3s;
+float: left;
+display: block;
+}
+#nav_bar a {
+display: block;
+margin-bottom:auto;
+float: left;
+text-decoration: none;
+padding: 20px;
+overflow: hidden;
+color: white;
+font-size:25px;
+left: 300px;
+}
+#nav_bar a:hover {
+  color: white;
+  }
+  .media_icons {
+  float:right;
+  padding-right:20px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: white;
+  }
+
+  .media_icons i {
+  display: block;
+  width:auto;
+  height:40px;
+  margin-right:5px;
+  margin-top: 0px;
+  color:#dce0d9;
+  transition: 0.2s ease;
+  padding-left: -10px;
+  padding-right: -10px;
+
+
+  }
+.media_icons i:hover {
+color:white;
+
+}
+
+/*NAVIGATON BAR END HERE */
+
+/*Video fade animation*/
+
+@keyframes fade-in {
+    from {
+        opacity:0;
+    }
+    to {
+          opacity:1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+.video-bg/*the class here lol*/{
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+display: block;
+ opacity: 1;
+animation: fade-out 3s ease-in forwards;
+animation-delay: 23s;
+}
+
+.neon{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.neon::after{
+  content: '';
+  width: 0%;
+  height: 7px;
+  background: radial-gradient(#283048,#859398);
+  bottom: 0%; left: 50%;
+  border-radius: 10px;
+  transition: all 500ms ease;
+  position: absolute;
+}
+
+.neon:hover::after{
+  left: 0%;
+  width: 100%;
+}

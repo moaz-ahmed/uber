@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Goal Diggers</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=" Homepage_style.css">
+    <!-- Font and Icons Library -->
+    <link rel="icon" href="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2FUber_App_Icon.png?v=1584193324324" type="png">
+    <script src="https://kit.fontawesome.com/0d5ea8cf2b.js" crossorigin="anonymous"></script>
+    <!--Font awosome Icons Library-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--Font awosome Icons Library-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google ICONS-->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=sky" />
+    <!--Sky- ARABIC-->
+    <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
+    <!--Changa- ARABIC-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Open sans- English-->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!--Questrial-English -->
+    <script src="https://kit.fontawesome.com/0d5ea8cf2b.js" crossorigin="anonymous"></script>
+    <!--Font awosome Icons Library-->
+    <script src="https://use.fontawesome.com/09eda3136b.js"></script>
+    <!-- End of Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script>
+        //<!--Scroll effect script -->
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("nav_bar").style.top = "0";
+            } else {
+                document.getElementById("nav_bar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="particles-js">
+        <canvas class="particles-js-canvas-el" width="811" height="406" style="width: 100%; height: 100%;"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+    </script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 355,
+                    "density": {
+                        "enable": true,
+                        "value_area": 789.1476416322727
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "background": {
+                        "background": "#ffffff",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.48927153781200905,
+                    "random": false,
+                    "anim": {
+                        "enable": true,
+                        "speed": 0.2,
+                        "opacity_min": 0,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 2,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 2,
+                        "size_min": 0,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 150,
+                    "color": "#000000",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 0.2,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 83.91608391608392,
+                        "size": 1,
+                        "duration": 3,
+                        "opacity": 1,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <div class="bg">
+    </div>
+    <a href="Homepage.html"> </a>
+    <nav>
+        <ul id="nav_bar">
+            <a href="Homepage.html" class="uberlogo"><img src="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2Fuber-logo-png-1584.png?v=1584295596633" class="uberlogo" alt="Uber logo" height="35px" width="150px">
+            </a>
+            <a href="Homepage.html" class="neon"> Home </a>
+            <a href="Services.html" class="neon">Services </a>
+            <a href="Order.html" class="neon">Order your ride </a>
+            <a href="Order.html#About" class="neon">About </a>
+            <a href="Homepage_ar.html" class="neon"> عربي  </a>
+            <div class="media_icons" >
+              <a href="https://instagram.com/uber/"> <i class="fab fa-facebook-square"></i> </a>
+              <a href="https://www.facebook.com/uber"> <i class="fab fa-instagram"></i> </a>
+            <a href="mailto:support@uber.com"> <i class="material-icons"> mail </i> </a>
+            </div>
+
+          </ul>
+    </nav>
+    <div class="thehead">
+        <span class="theip"> Welcome in Uber.</span>
+    </div>
+    <div class="theunder">
+        Your ride and comfort are our mission.
+    </div>
+    <div class="firstpic">
+        <a href="https://auth.uber.com/login/?uber_client_name=riderSignUp&">
+            <img src="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2F7.jfif?v=1584019966735" alt="A man carrying a mobile with an Uber icon" class="thepic">
+            <br>
+            <center class="heads">Sign in Uber and get
+                <br> a 50% discount for your first ride</center>
+        </a>
+    </div>
+    <div class="secpic">
+        <a>
+            <img src="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2F0.jfif?v=1584080066934" class="thepic" alt="A mobile with a destination after 850m">
+            <br>
+            <center class="heads">Uber is near you wherever you are
+                <br> just call and we will take you to anyplace</center>
+        </a>
+    </div>
+    <div class="thirdpic">
+        <a>
+            <img src="https://cdn.glitch.com/e8596f6d-24da-4369-b71b-66cc50eb75b1%2F2.jfif?v=1584081299595" class="thepic" alt="a car with uber logo">
+            <br>
+            <center class="heads">You can call cars from 1-2 passengers
+                <br> if alone or from 4-6 if you are a family</center>
+        </a>
+    </div>
+    <!--Footer starts here -->
+<div class="Video-text">
+  <a href="https://drive.google.com/open?id=1gahkV_GRgw_JYpxVOXlx_fNrlQ0gc-dy">
+A video we made but we didn't know where to but it
+</a>
+</div>
+</body>
+</body>
+</html>

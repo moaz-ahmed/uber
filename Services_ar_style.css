@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+}
+html ::selection {
+  background-color: #f5e2c8;
+  color:#2f3f50;
+}
+body {
+font-family: 'Questrial' ,'sky','Changa',sans-serif;
+margin: 0;
+height: 100%;
+width:100%;
+font-size: 25px;
+scroll-behavior: smooth;
+overflow-x: hidden;
+color:black;
+background-color: #e8e9eb;
+direction: rtl;
+}
+#particles-js {
+  position:absolute;
+  height: 100%;
+  width:100%;
+
+}
+
+/*NAVIGATON BAR*/
+.uberlogo
+{
+  padding-left:60px ;
+  padding-right:30px;
+  margin-right:10px;
+  padding-top: 20px;
+  padding-bottom: -10px;
+  margin-bottom: -10px;
+  margin-top: -5px;
+  cursor: normal;
+  float: left;
+}
+#nav_bar
+{
+color:black;
+margin: auto;
+padding:auto;
+margin-left: -10px;
+margin-top: auto;
+position: fixed;
+top:0;
+width:100%;
+height:auto;
+background-color:rgba(0, 0, 0, 0.7);;
+transition: top 0.3s;
+float: left;
+display: block;
+background-blend-mode: lighten;
+z-index: 10;
+}
+nav a {
+display: block;
+margin-bottom:auto;
+float: left;
+text-decoration: none;
+padding: 20px;
+overflow: hidden;
+color: black;
+font-size:25px;
+left: 300px;
+}
+ nav a:hover {
+  color: #dce0d9;
+  transition: 0.5s ease ;
+  }
+
+  .neon{
+    margin-top:-5px;
+      color: white;
+      text-decoration: none;
+      position: relative;
+  }
+
+  .neon::after{
+    content: '';
+    width: 0%;
+    height: 7px;
+    background: radial-gradient(#283048,#859398);
+    bottom: 10%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease;
+    position: absolute;
+  }
+
+  .neon:hover::after{
+    left: 0%;
+    width: 100%;
+  }
+  .media_icons {
+  float:right;
+  padding-right:20px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: white;
+  }
+
+  .media_icons i {
+  display: block;
+  width:auto;
+  height:40px;
+  margin-right:5px;
+  margin-top: -5px;
+  color:#dce0d9;
+  transition: 0.2s ease;
+  padding-left: -10px;
+  padding-right: -10px;
+
+
+  }
+  .media_icons i:hover {
+  color:white;
+
+  }
+/*NAVIGATON BAR END HERE */
+.top-text {
+  margin-right: 150px;
+
+}
+.top-text a {
+text-decoration: none;
+position:relative;
+right: 50px;
+padding-left:15px;
+padding-right: 15px;
+padding-top: 20px;
+color:#333742;
+transition: 1s ease;
+opacity: 0.8;
+overflow: auto;
+padding-bottom: 5px;
+
+}
+.top-text a:hover {
+  color:black;
+  opacity: 1;
+  border-bottom: 2px solid grey;
+  width: auto;
+}
+
+.Title {
+font-size : 50px;
+position:relative;
+text-align: right;
+color: #333333;
+margin-left: auto;
+text-align: right;
+top:50px;
+
+}
+
+.Sub-title {
+  position: relative;
+  top : 20px;
+  left:250px;
+  font-size: 25px;
+  color: #313638;
+  text-align: center;
+  margin:auto;
+  font-weight: lighter;
+}
+#IMGS {
+  align-items: center;
+  align-content: center;
+
+
+}
+/*There is cool Underlinig effect here , check it out */
+#IMGS a{
+  display: block;
+  float: left;
+  text-decoration: none;
+  overflow:auto;
+  color: #a59995;
+  transition: 0.5s ease;
+  position: relative;
+  top : 150px;
+  left: 30px;
+  margin-left: 175px;
+}
+#IMGS a:hover{
+  border-bottom: 2px solid grey;
+  width: auto;
+  color:#333333;
+
+
+}
+#IMGS img {
+  height : 275px;
+  width : auto;
+  position: relative;
+  top: 150px;
+  right: 830px;
+  margin-left: 20px;
+  overflow: auto;
+
+}
+.UberX-description {
+position: relative;
+right :100px;
+bottom: 100px;
+height: 250px;
+width : 600px;
+overflow: auto;
+font-size: 30px;
+word-wrap: break-word;
+padding-top: -550px;
+font-weight: lighter;
+color:#313638;
+}
+.hr-uberX {
+  position: relative;
+  right : 150px;
+  transform: rotate(90deg);
+  height: 5px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: black;
+}
+/*Uber Eats section*/
+
+.eats-img1 {
+  width: 50%;
+  height:auto;
+  float: right;
+  position: absolute;
+  right: 20px;
+}
+.hr-ubereats {
+  position: relative;
+  right : 75px;
+  top: 150px;
+  transform: rotate(90deg);
+  height: 5px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: black;
+}
+.UberEats-description {
+position: relative;
+top: 30px;
+right:830px;
+height: 250px;
+width : 500px;
+overflow: auto;
+font-size: 30px;
+word-wrap: break-word;
+padding-bottom:-550px;
+font-weight: lighter;
+color:#313638;
+flex-direction: column;
+}
+.UberEatslink{
+  display: block;
+  float: right;
+  text-decoration: none;
+  overflow:auto ;
+  color: #a59995;
+  transition: 0.5s ease;
+  position: relative;
+  top : 360px;
+  right: 275px;
+
+}
+.UberEatslink:hover{
+  border-bottom: 2px solid grey;
+  width: auto;
+  color:#333333;
+}
+.Inside-text {
+transition: 0.5s ease;
+text-decoration: none;
+color:#a59995;
+
+}
+.Inside-text :hover {
+border-bottom: 2px solid grey;
+width: auto;
+color:#333333;
+}
+ /*Uber Ellevate section */
+#UberElevate img {
+width: 40%;
+height: auto;
+float: left;
+position: relative;
+top: 250px;
+left:20px;
+}
+
+.hr-uberElevate {
+   position: relative;
+   right :300px;
+   top: 360px;
+   transform: rotate(90deg);
+   height: 5px;
+   width: 300px;
+   border-radius: 10px;
+   background-color: black;
+ }
+ .UberElevate-description {
+ position: relative;
+ top: 230px;
+ right:50px;
+ height: 220px;
+ width : 500px;
+ overflow: auto;
+ font-size: 30px;
+ word-wrap: break-word;
+ padding-bottom:-550px;
+ font-weight: lighter;
+ color:#313638;
+ flex-direction: column;
+ }
+ #UberElevate a{
+   display: block;
+   float: left;
+   text-decoration: none;
+   overflow:auto ;
+   color: #a59995;
+   transition: 0.5s ease;
+   position: relative;
+   top : 540px;
+   right: 350px;
+
+ }
+ #UberElevate a:hover{
+   border-bottom: 2px solid grey;
+   width: auto;
+   color:#333333;
+ }
